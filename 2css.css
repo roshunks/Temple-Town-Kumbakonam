@@ -1,17 +1,17 @@
 body {
   font-family: "Lato", sans-serif;
 
-  margin: 5px;
+  margin: 0px;
 }
 
-.container {
+.container1 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
 .nav-wrapper {
   display:inline-flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   padding: 38px;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .portfolio-item-wrapper {
-  position: relative;
+  position:relative;
 }
 
 .portfolio-img-background {
@@ -68,7 +68,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 300px;
-  width: 95%;
+  width: 99%;
+  border-top: 5px solid white;
+  border-bottom: 1px solid white;
 }
 
 .img-text-wrapper {
